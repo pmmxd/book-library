@@ -1,0 +1,32 @@
+# Runtime library data and user content
+/data/
+/legacy/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.bak
+*.backup
+*.log
+
+# Generated caches and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# Local CodeGraph index
+/.codegraph/
+
+# Secrets and machine-specific settings
+.env
+.env.*
+*.pem
+*.key
+*.token
+.DS_Store
+Thumbs.db
+desktop.ini
